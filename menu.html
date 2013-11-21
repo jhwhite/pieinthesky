@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pie in the Sky Pizzeria</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans|Fondamento' rel='stylesheet' type='text/css'>
+  
+  <script src="js/vendor/custom.modernizr.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+</head>
+<body>
+	<div class="sticky">
+	<nav class="top-bar">
+	  <ul class="title-area">
+	    <!-- Title Area -->
+	    <li class="name">
+	      <h1><a href="index.html">Pie in the Sky</a></h1>
+	    </li>
+	    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+
+	  <section class="top-bar-section">
+	    <!-- Left Nav Section -->
+	    <ul class="left">
+	      <li class="divider"></li>
+	      <li class="active"><a href="#">Menu</a></li>
+	      <li class="divider"></li>
+	      <li><a href="#">Main Item 2</a></li>
+	      <li class="divider"></li>
+	      <li class="has-dropdown"><a href="#">Main Item 3</a>
+
+	        <ul class="dropdown">
+	          <li class="has-dropdown"><a href="#">Dropdown Level 1a</a>
+
+	            <ul class="dropdown">
+	              <li><label>Dropdown Level 2 Label</label></li>
+	              <li><a href="#">Dropdown Level 2a</a></li>
+	              <li><a href="#">Dropdown Level 2b</a></li>
+	              <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
+
+	                <ul class="dropdown">
+	                  <li><label>Dropdown Level 3 Label</label></li>
+	                  <li><a href="#">Dropdown Level 3a</a></li>
+	                  <li><a href="#">Dropdown Level 3b</a></li>
+	                  <li class="divider"></li>
+	                  <li><a href="#">Dropdown Level 3c</a></li>
+	                </ul>
+	              </li>
+	              <li><a href="#">Dropdown Level 2d</a></li>
+	              <li><a href="#">Dropdown Level 2e</a></li>
+	              <li><a href="#">Dropdown Level 2f</a></li>
+	            </ul>
+	          </li>
+	          <li><a href="#">Dropdown Level 1b</a></li>
+	          <li><a href="#">Dropdown Level 1c</a></li>
+	          <li class="divider"></li>
+	          <li><a href="#">Dropdown Level 1d</a></li>
+	          <li><a href="#">Dropdown Level 1e</a></li>
+	          <li><a href="#">Dropdown Level 1f</a></li>
+	          <li class="divider"></li>
+	          <li><a href="#">See all &rarr;</a></li>
+	        </ul>
+	      </li>
+	      <li class="divider"></li>
+	    </ul>
+
+	    <!-- Right Nav Section 
+	    <ul class="right">
+	      <li class="divider hide-for-small"></li>
+	      <li class="has-dropdown"><a href="#">Main Item 4</a>
+
+	        <ul class="dropdown">
+	          <li><label>Dropdown Level 1 Label</label></li>
+	          <li class="has-dropdown"><a href="#" class="">Dropdown Level 1a</a>
+
+	            <ul class="dropdown">
+	              <li><a href="#">Dropdown Level 2a</a></li>
+	              <li><a href="#">Dropdown Level 2b</a></li>
+	              <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
+
+	                <ul class="dropdown">
+	                  <li><a href="#">Dropdown Level 3a</a></li>
+	                  <li><a href="#">Dropdown Level 3b</a></li>
+	                  <li><a href="#">Dropdown Level 3c</a></li>
+	                </ul>
+	              </li>
+	              <li><a href="#">Dropdown Level 2d</a></li>
+	              <li><a href="#">Dropdown Level 2e</a></li>
+	              <li><a href="#">Dropdown Level 2f</a></li>
+	            </ul>
+	          </li>
+	          <li><a href="#">Dropdown Level 1b</a></li>
+	          <li><a href="#">Dropdown Level 1c</a></li>
+	          <li class="divider"></li>
+	          <li><label>Dropdown Level 1 Label</label></li>
+	          <li><a href="#">Dropdown Level 1d</a></li>
+	          <li><a href="#">Dropdown Level 1e</a></li>
+	          <li><a href="#">Dropdown Level 1f</a></li>
+	          <li class="divider"></li>
+	          <li><a href="#">See all &rarr;</a></li>
+	        </ul>
+	      </li>
+	      <li class="divider"></li>
+	      <li class="has-form">
+	        <form>
+	          <div class="row collapse">
+	            <div class="small-8 columns">
+	              <input type="text">
+	            </div>
+	            <div class="small-4 columns">
+	              <a href="#" class="alert button">Search</a>
+	            </div>
+	          </div>
+	        </form>
+	      </li>
+	      <li class="divider show-for-small"></li>
+	      <li class="has-form">
+	        <a class="button" href="#">Button!</a>
+	      </li>
+	    </ul>-->
+	  </section>
+	</nav> <!-- END NAV BAR -->
+	</div>
+
+		<header id="masthead" class="site-header" role="banner">
+		<!--<img class="logo-image" src="img/pizza2.jpg">-->
+	</header>
+
+	<div class="row">
+		<div class="large-12 columns">
+			<h1 id="restaurant-name">Pie in the Sky Pizzeria</h1>
+		</div>
+	</div>
+
+		<section id="info">
+		<div class="row">
+			<div class="large-4 columns">
+				<h3>Contact</h3>
+				<p>Phone Number: (540) 948-4001</p>
+			</div>
+			<div class="large-4 columns">
+				<h3>Location</h3>
+				<p>312 N. Main St.<br /> Madison, VA 22727
+				
+			</div>
+			<div class="large-4 columns">
+				<h3>Hours</h3>
+				<p>Tuesday & Wednesday 11:00 - 8:00 <br />
+					Thursday - Saturday 11:00 - 9:00 </p>
+			</div>
+		</div>
+		</section>
+	<br />
+	<div class="row">
+		<div class="large-12 columns">
+			<h2><span id="menu-header">Menu<span></h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-6 columns">
+			<h3 class="menu-category">In the beginning</h3>
+
+			<h4 class="menu-item">PIZZETTES <span class="price right">6.50</span></h4>
+			<p class="menu-description">Our dough stretched thin topped with special premium ingredients. We have two styles to choose from and both pair great with a crisp white wine. <br /> <em>O My Goddess</em> – Our Pie in the Sky Roasted Olives, Roasted Red Peppers and Parmesan cheese served on crispy baked dough. <br /><em>Olympus</em> – Just plain heavenly. Garlicky Spinach and Marinated Artichoke hearts topped with Asiago cheese served on crispy baked dough.</p>
+
+			<h4 class="menu-item">BREAD ALONE <span class="price right">3.95</span></h4>
+			<p class="menu-description">A toasted loaf slathered with garlic, butter, parmesan and parsley.</p>
+
+			<h4 class="menu-item">THE BIG O <span class="price right">5.95</span></h4>
+			<p class="menu-description">A selection of olives roasted with spices and slices of lemons. Served with <span class="bold">Bread Alone.</span></p>
+
+			<h4 class="menu-item">MMMEATBALLS <span class="price right">5.95</span></h4>
+			<p class="menu-description">Battered mushrooms deep fried to a golden brown. Served with our house made horseradish dipping sauce for that zing.</p>
+
+			<h4 class="menu-item">A FUN GUY <span class="price right">5.95</span></h4>
+			<p class="menu-description">Juicy meatballs made with pork and beef and served in Pie in the Sky’s spicy Fra Diavolo sauce.</p>
+
+			<h4 class="menu-item">WING IT <span class="price right">6.95</span></h4>
+			<p class="menu-description">Six wing pieces deep fried and coated in sauces from around the globe. Choose from Buffalo, Fra Diavolo, Garlic Parmesan, Teriyaki, and Korean Barbecue. Served with house made Ranch or Bleu Cheese dressing."</p>
+
+			<h4 class="menu-item">MOZZA STICKS <span class="price right">6.95</span></h4>
+			<p class="menu-description">Mozzarella cheese batons coated in breadcrumbs and then deep fried. Served with side of house made Red sauce for dipping.
+			<br /><em>Add extra sauce for dipping. <span class="price">1.00</span></em></p>
+
+			<h4 class="menu-item">DILL ME IN <span class="price right">5.95</span></h4>
+			<p class="menu-description">Delicious dill pickle spears battered, fried and served with our house honey mustard dressing.</p>
+
+			<h4 class="menu-item">BADA-BING-BANG TOTS <span class="price right">4.95</span></h4>
+			<p class="menu-description">What’re you lookin’ at? Tater Tots fried golden and coated in Bada-Bing Bang sauce for that bada-bing- bang.</p>
+
+			<h4 class="menu-item">QUESO STICKS <span class="price right">6.95</span></h4>
+			<p class="menu-description">Deconstructed Chile con Queso. Mexican cheese mixed with spices cut into batons and coated with crushed tortilla chips and then deep fried to creamy goodness. Served with side of house made Jalapeño Tomatillo Ranch dipping sauce and sliced jalapeños.
+			<br /><em>Add extra dipping sauce and sliced jalapeños. <span class="price">1.00</span></em></p>
+
+			<h4 class="menu-item">WON TON OF HOT <span class="price right">5.95</span></h4>
+			<p class="menu-description">House made jalapeño poppers with an Asian twist. Cheese and jalapeño stuffed into won ton wrappers and fried to a golden brown. Served with Sweet Thai Chili dipping sauce.
+			<br /><em>Add extra dipping sauce. <span class="price">1.00</span></em></p>
+
+			<h4 class="menu-item">IT’S A DATE <span class="price right">7.95</span></h4>
+			<p class="menu-description">Sweet, creamy, smoky and salty all in one. Dates, stuffed with ricotta cheese, wrapped in bacon, and baked to meld the flavors.</p>
+
+			<h3 class="menu-category">GREENERY BRIGHT SCENERY</h3>
+			<p class="menu-description">House, Greek, Bleu Cheese, Ranch, Lemon, Grandma’s tomato, Russian. Small/Large salad.</p>
+
+			<h4 class="menu-item">SASSY ANTIPASTI <span class="price right">8.95</span></h4>
+			<p class="menu-description">Classic Italian salad with Romaine, tomato, onion, and a variety of Italian meats and cheese. Served with our House Dressing. Mangia!</p>
+
+			<h4 class="menu-item">ROCKETMAN <span class="price right">8.95</span></h4>
+			<p class="menu-description">Arugula “Rocket” and Spinach greens. Topped with Chevre, dried berries, and roasted Edamame for crunch. Served with our house made Lemon dressing.</span></p>
+
+			<h4 class="menu-item">IN THE HOUSE <span class="price right">4.50/6.95</span></h4>
+			<p class="menu-description">Mixed salad greens with lettuce, cucumbers, tomato, onions and house made croutons. Served with House dressing.</p>
+
+			<h4 class="menu-item">EL GRECO <span class="price right">4.95/7.95</span></h4>
+			<p class="menu-description">A mix of lettuces, with cucumbers, tomatoes, onion, feta, Roasted red peppers, Kalamata olives. Served with our Greek dressing.</p>
+
+			<h4 class="menu-item">GOTTA EAT YOUR SPINACH BABY <span class="price right">8.95</span></h4>
+			<p class="menu-description">A classic salad with Spinach, onion, sliced mushrooms, bleu cheese, topped with hard-boiled egg and bacon. Served with House dressing.</p>
+
+			<h4 class="menu-item">A LITTLE CHICKEN FRIED <span class="price right">9.95</span></h4>
+			<p class="menu-description">A beautiful salad topped with cornbread croutons, toasted sweet pecans, and with a fried chicken breast. Served with house made Ranch dressing.</p>
+
+			<h4 class="menu-item">M.C. COBB <span class="price right">8.95</span></h4>
+			<p class="menu-description">Made famous at the famous Brown Derby Restaurant in Hollywood in the 1930s. A mix of salad greens. Topped with tomato, crisp bacon, hard-boiled egg, Bleu cheese crumbles and oven- roasted turkey. It’s served with our House dressing.</p>
+
+			<h4 class="menu-item">GREENERY ADD ONS</h4>
+			<p class="menu-description"><em>Croutons – <span class="price">0.50</span> Chicken– <span class="price">3.00</span> Extra Dressing – <span class="price">0.50</span></em></p>
+
+			<h3 class="menu-category">Use Your Noodle</h3>
+			<p class="menu-description">Did you know that a lot of common pasta names are plurals? So one Spaghetto, two Spaghetti...one Zito, two Ziti. Really, we’re not kidding.</p>
+
+			<h4 class="menu-item">HEADY SPAGHETTI <span class="price right">6.95</span></h4>
+			<p class="menu-description">Spaghetti means “thin string” in Italian. Served with juicy meatballs with house made Red or spicy Fra Diavolo sauce.</p>
+
+			<h4 class="menu-item">CREAMY FETTUCINE <span class="price right">8.95</span></h4>
+			<p class="menu-description">Fettuccine literally is “thin ribbons” in Italian. Thicker than spaghetti, this fettuccine is serve with our luscious creamy house made Alfredo sauce.</p>
+
+			<h4 class="menu-item">CHEESY ZITI <span class="price right">9.50</span></h4>
+			<p class="menu-description">Zito is Italian for “bridegroom”. Ziti baked in our red sauce with Mozzarella and Parmesan cheeses.</p>
+
+			<h4 class="menu-item">HEY PEPE <span class="price right">9.95</span></h4>
+			<p class="menu-description">Bucatini in the classic cheese and black pepper sauce. Bucatini is a long pasta with a hole running through it. The name comes from the Italian bucato meaning “pierced”.</p>
+
+		</div>
+		<div class="large-6 columns">
+			<h3 class="menu-category">Perfect Pizza Pies</h3>
+			<p class="menu-description">Our Pies are made with slow fermented dough to get the best flavor. We hand stretch the dough to order. We then top our pies with house made sauce and cheeses. All our Specialty Pizzas are Large Pies.</p>
+
+			<h4 class="menu-item">MEAT-ZA <span class="price right">19.95</span></h4>
+			<p class="menu-description">Pepperoni, Sausage, Ham, and Bacon... all on one pie. Did we mention meat?</p>
+
+			<h4 class="menu-item">EXTREME <span class="price right">21.95</span></h4>
+			<p class="menu-description">Pepperoni, Sausage, mushrooms, onions, and green bell peppers. A balance of meat and veggies.</p>
+
+			<h4 class="menu-item">ONO ALOHA <span class="price right">18.95</span></h4>
+			<p class="menu-description">The Ultimate Hawaiian pie with Pineapple, Ham, and Bacon. Finished with a Teriyaki glaze.</p>
+
+			<h4 class="menu-item">EL POLLO PICANTE <span class="price right">19.95</span></h4>
+			<p class="menu-description">Spicy Chicken bites with green and red bell peppers. Not too spicy but a little zing.</p>
+
+			<h4 class="menu-item">BLANCA <span class="price right">21.95</span></h4>
+			<p class="menu-description">A white pie (no tomato sauce) with Onions, olives, Italian Sausage, and Parmesan cheese.</p>
+
+			<h4 class="menu-item">BALLYHOO <span class="price right">22.95</span></h4>
+			<p class="menu-description">Sliced Meatballs, with lots of onions and mushrooms top this pie.</p>
+
+			<h4 class="menu-item">BBQ <span class="price right">20.95</span></h4>
+			<p class="menu-description">Barbecued chicken and onions topped with a splash of BBQ sauce. Finished with Cilantro. Ya’ll love it.</p>
+
+			<h4 class="menu-item">GREEK-ZA <span class="price right">25.95</span></h4>
+			<p class="menu-description">Meatballs, Feta cheese, Onions, olives, spinach, garlic, with oregano on top. Opa!</p>
+
+			<h4 class="menu-item">HAM ‘N’ LEMON <span class="price right">25.95</span></h4>
+			<p class="menu-description">A white pizza pie with ham, onion, parmesan cheese, black pepper and finished with Arugula tossed in our house Lemon dressing spread on top.</p>
+
+			<h4 class="menu-item">IV <span class="price right">23.95</span></h4>
+			<p class="menu-description">A four cheese pie. Mozza, Parmesan, Chevre, and Ricotta. Decadent richness.</p>
+
+			<h4 class="menu-item">THE RED <span class="price right">19.95</span></h4>
+			<p class="menu-description">A classic pie with Roasted Red Peppers, Italian Sausage, and onions.</p>
+
+			<h4 class="menu-item">THE PIE IN THE SKY <span class="price right">13.95</span></h4>
+			<p class="menu-description">A specialty of the house. A medium cheese pizza baked golden and then folded around our Italian Sub meats, Lettuce, tomato, onion and House dressing. We then slice it into four pieces. A real belly buster for one, filling for two and could serve up to four.</p>
+
+			<h3 class="menu-category">BUILD YOUR OWN PIE</h3>
+
+			<h4 class="menu-item">START WITH A CHEESE PIE AND ADD ON TOPPINGS</h4>
+			<h4 class="menu-description">Sm <span class="price">5.95</span>/Med <span class="price">9.75</span>/Large <span class="price">11.95</span></h4>
+
+			<h4 class="menu-item">REGULAR TOPPING <span class="price right">1.00/1.50/2.00</span></h4>
+			<p class="menu-description">Pepperoni, Mozzarella, Italian Sausage, bacon, ham, green pepper, onion, banana peppers, black olive slices, Mushroom, fresh tomato slices, spinach, pineapple, jalapeño, garlic</p>
+
+			<h4 class="menu-item">DELUXE TOPPING <span class="price right">2.00/3.00/4.00</span></h4>
+			<p class="menu-description">Artichoke, chicken, sundried tomato, Sautéed mushroom, roasted red pepper, kalamata, Anchovy, Feta, Ricotta, Cheddar, Chevre, meatball, Parmesan</p>
+
+			<h3 class="menu-category">STOCKING VERSUS THE VOLCANO</h3>
+			<p class="menu-description">Calzone, pronounced kal-zoh-nay, in Italian means “one pant leg” or “stocking”. Stromboli is named after the 1950 Roberto Rossellini/Ingrid Bergman movie, which in turn is named after the movie’s setting on the volcanic island of Stromboli. A Calzone is a pocket of dough filled with cheese and a topping and baked brown. It is served smothered in tomato sauce. A Stromboli is more of a sandwich roll with dough rolled around meat, cheese and sauce. It is served sliced after the cheese cools a bit.</p>
+
+			<h4 class="menu-item">CALZONE <span class="price right">8.50</span></h4>
+			<p class="menu-description">Ricotta and mozzarella stuffed into half-moon shaped dough. Add one regular topping of your choice or go with Genoa salami. Brushed with cream and baked brown and served with a slathering of red sauce.</p>
+
+			<h4 class="menu-item">STROMBOLI <span class="price right">7.50</span></h4>
+			<p class="menu-description">Dough pressed thin with toppings, sauce and cheese rolled up. It is baked golden with slashes in the top to let out the steam. It is then cooled and cut into slices. Our two regular toppings are ham and pepperoni, but you can also choose your own two regular toppings.</p>
+
+			<h3 class="menu-category">SUBMARINE, GRINDER, HOAGIE, PO’BOY... WHATEVER YOU CALL IT</h3>
+			<p class="menu-description">We slice all our quality meats and cheeses here at Pie in the Sky. Our Subs are created on a fresh roll with Tomato, Lettuce and Onion and topped with the Pie in the Sky House Dressing. All our grinders are oven-toasted. Two sizes half/whole.</p>
+
+			<h4 class="menu-item">ITALIANO <span class="price right">6.95/9.95</span></h4>
+			<p class="menu-description">A tasty combination of Italian meats: Cappicola, Mortadella, Pepperoni, Ham, and Genoa Salami. Finished with Provolone cheese.</p>
+
+			<h4 class="menu-item">MYHAMMYVICE <span class="price right">5.95/8.95</span></h4>
+			<p class="menu-description">Smokey baked Ham, topped with Swiss Cheese.</p>
+
+			<h4 class="menu-item">GOBBLER <span class="price right">5.95/8.95</span></h4>
+			<p class="menu-description">Roasted Turkey Breast sliced thin and topped with classic American Cheese.</p>
+
+			<h4 class="menu-item">VEGGIE <span class="price right">5.95/8.95</span></h4>
+			<p class="menu-description">A combination of Mushroom, Olives, Green Pepper, and Banana Peppers along with our standard Tomato, Lettuce and Onion. With Provolone and American Cheeses.</p>
+
+			<h4 class="menu-item">CATFISH PO’ BOY <span class="price right">8.95/12.95</span></h4>
+			<p class="menu-description">Catfish filets coated in corn meal, fried golden, and dressed with our house made Cajun Tartar sauce and topped with Lettuce and tomato. F’true cher, it’s scrumptious.</p>
+
+		</div>
+		<!--
+		<div class="large-4 columns">
+
+		</div>
+	-->
+	</div>
+
+	<footer>
+		<div class="row">
+			<div class="large-8 columns">
+				<p>The standard Lorem Ipsum passage, used since the 1500s</p>
+				<p>
+				"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</p>
+				<p>
+				Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+				</p>
+				<p>
+				"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+				</p>
+			</div>
+			<div class="large-4 columns map">
+				<iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=pie+in+the+sky+madison+va&amp;aq=&amp;sll=38.003385,-79.420925&amp;sspn=7.762349,14.27124&amp;ie=UTF8&amp;hq=pie+in+the+sky&amp;hnear=Madison,+Virginia&amp;t=m&amp;ll=38.382393,-78.255363&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=pie+in+the+sky+madison+va&amp;aq=&amp;sll=38.003385,-79.420925&amp;sspn=7.762349,14.27124&amp;ie=UTF8&amp;hq=pie+in+the+sky&amp;hnear=Madison,+Virginia&amp;t=m&amp;ll=38.382393,-78.255363&amp;spn=0.006295,0.006295" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
