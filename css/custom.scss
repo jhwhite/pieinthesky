@@ -1,0 +1,107 @@
+$bg-body-color: #F1E4AE;  //brownish or khaki color
+$bg-footer-color: #000000; //black background for footer
+$price-color: #bf3109;  //red font for menu prices
+$footer-font-color: #ffffff;
+$menu-font-color: #786247;
+$menu-item-color: #5E8386;
+$body-font: 'Open Sans', sans-serif;
+$cursive-font: 'Fondamento', cursive;
+$map-height: 25em;
+
+body {
+	background-color: $bg-body-color;
+}
+
+.price {
+	color: $price-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $body-font;
+}
+
+#restaurant-name {
+	font-family: $cursive-font;
+	text-align: center;
+	padding-top: .5em;
+}
+
+#info {
+	text-align: center;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	padding-top: 1em;
+}
+
+.content {
+	background-color: $bg-footer-color;
+}
+
+.map {
+	height: $map-height;
+}
+
+footer {
+	color: $footer-font-color;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	background-color: $bg-footer-color;
+}
+
+.menu-category {
+	color: $menu-font-color;
+	text-transform:uppercase;
+}
+
+#menu-header {
+	border-bottom: 3px dotted;
+}
+
+.menu-item {
+	color: $menu-item-color;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+.menu-description {
+	color: $menu-font-color;
+}
+
+h4.menu-description {
+	font-weight: normal;
+}
+
+h4.directions {
+	color: white;
+	border-bottom: solid white 1px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#directions {
+	color: white;
+	font-weight: normal;
+}
+
+span#direction-header {
+	border-bottom: dotted white 3px;
+}
+
+div#notes-reheat-pizza {
+	border: solid black 1px;
+}
+
+h4#notes-header {
+	text-align: center;
+	color: $menu-font-color;
+}
+
+#row-notes {
+	padding-bottom: 1em;
+}
+
+a:link {
+	color: #000000;
+}
