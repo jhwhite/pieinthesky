@@ -48,15 +48,16 @@ footer {
 h4.menu-description {
   font-weight: normal; }
 
+h4.directions, #directions {
+  color: white; }
+
 h4.directions {
-  color: white;
   border-bottom: solid white 1px; }
 
 .bold {
   font-weight: bold; }
 
 #directions {
-  color: white;
   font-weight: normal; }
 
 span#direction-header {

@@ -71,8 +71,11 @@ h4.menu-description {
 	font-weight: normal;
 }
 
+h4.directions, #directions {
+	color: $footer-font-color;
+}
+
 h4.directions {
-	color: white;
 	border-bottom: solid white 1px;
 }
 
@@ -81,7 +84,6 @@ h4.directions {
 }
 
 #directions {
-	color: white;
 	font-weight: normal;
 }
 
