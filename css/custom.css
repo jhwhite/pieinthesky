@@ -75,3 +75,7 @@ h4#notes-header {
 
 a:link {
   color: #000000; }
+
+#map-button {
+  background: #f1e4ae;
+  color: #786247; }

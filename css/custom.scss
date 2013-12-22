@@ -7,6 +7,8 @@ $menu-item-color: #5E8386;
 $body-font: 'Open Sans', sans-serif;
 $cursive-font: 'Fondamento', cursive;
 $map-height: 25em;
+$map-button-color: #F1E4AE;
+$map-font-color: #786247;
 
 body {
 	background-color: $bg-body-color;
@@ -106,4 +108,9 @@ h4#notes-header {
 
 a:link {
 	color: #000000;
+}
+
+#map-button {
+	background: $map-button-color;
+	color: $map-font-color;
 }
