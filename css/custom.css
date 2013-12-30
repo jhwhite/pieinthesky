@@ -79,3 +79,6 @@ a:link {
 #map-button {
   background: #f1e4ae;
   color: #786247; }
+
+li.active {
+  background-color: #fc1503; }

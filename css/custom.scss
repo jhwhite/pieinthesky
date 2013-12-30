@@ -1,6 +1,6 @@
-$bg-body-color: #F1E4AE;  //brownish or khaki color
-$bg-footer-color: #000000; //black background for footer
-$price-color: #bf3109;  //red font for menu prices
+$bg-body-color: #F1E4AE;  		//brownish or khaki color
+$bg-footer-color: #000000; 		//black background for footer
+$price-color: #bf3109;  		//red font for menu prices
 $footer-font-color: #ffffff;
 $menu-font-color: #786247;
 $menu-item-color: #5E8386;
@@ -9,6 +9,7 @@ $cursive-font: 'Fondamento', cursive;
 $map-height: 25em;
 $map-button-color: #F1E4AE;
 $map-font-color: #786247;
+$header-background-color: #fc1503;
 
 body {
 	background-color: $bg-body-color;
@@ -113,4 +114,8 @@ a:link {
 #map-button {
 	background: $map-button-color;
 	color: $map-font-color;
+}
+
+li.active {
+	background-color: $header-background-color;
 }
