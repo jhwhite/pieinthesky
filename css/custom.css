@@ -4,7 +4,7 @@ body {
 .price {
   color: #bf3109; }
 
-h1, h2, h3, h4, h5, h6, #facebook-visit {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif; }
 
 #restaurant-name {
@@ -84,5 +84,4 @@ li.active {
   background-color: #f9001b; }
 
 .fb-like {
-  padding-top: .75em;
-  background-color: black; }
+  padding-top: .75em; }
