@@ -82,3 +82,7 @@ a:link {
 
 li.active {
   background-color: #f9001b; }
+
+.fb-like {
+  padding-top: .75em;
+  background-color: black; }

@@ -15,8 +15,19 @@
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 </head>
 <body>
-	<div class="sticky">
-	<nav class="top-bar">
+	<!-- FACEBOOK javascript SDK -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- END FACEBOOK javascript SDK -->
+
+	<div class="contain-to-grid">
+	<nav class="top-bar ">
 	  <ul class="title-area">
 	    <!-- Title Area -->
 	    <li class="name">
@@ -27,9 +38,10 @@
 	  </ul>
 
 
-	  <!--<section class="top-bar-section">-->
+	  <section class="top-bar-section">
 	    <!-- Left Nav Section -->
-	    <!--<ul class="left">
+	    <!--
+	    <ul class="left">
 	      <li class="divider"></li>
 	      <li class="active"><a href="menu.html">Menu</a></li>
 	      <li class="divider"></li>
@@ -70,66 +82,24 @@
 	        </ul>
 	      </li>
 	      <li class="divider"></li>
-	    </ul>-->
-
-	    <!-- Right Nav Section 
-	    <ul class="right">
-	      <li class="divider hide-for-small"></li>
-	      <li class="has-dropdown"><a href="#">Main Item 4</a>
-
-	        <ul class="dropdown">
-	          <li><label>Dropdown Level 1 Label</label></li>
-	          <li class="has-dropdown"><a href="#" class="">Dropdown Level 1a</a>
-
-	            <ul class="dropdown">
-	              <li><a href="#">Dropdown Level 2a</a></li>
-	              <li><a href="#">Dropdown Level 2b</a></li>
-	              <li class="has-dropdown"><a href="#">Dropdown Level 2c</a>
-
-	                <ul class="dropdown">
-	                  <li><a href="#">Dropdown Level 3a</a></li>
-	                  <li><a href="#">Dropdown Level 3b</a></li>
-	                  <li><a href="#">Dropdown Level 3c</a></li>
-	                </ul>
-	              </li>
-	              <li><a href="#">Dropdown Level 2d</a></li>
-	              <li><a href="#">Dropdown Level 2e</a></li>
-	              <li><a href="#">Dropdown Level 2f</a></li>
-	            </ul>
-	          </li>
-	          <li><a href="#">Dropdown Level 1b</a></li>
-	          <li><a href="#">Dropdown Level 1c</a></li>
-	          <li class="divider"></li>
-	          <li><label>Dropdown Level 1 Label</label></li>
-	          <li><a href="#">Dropdown Level 1d</a></li>
-	          <li><a href="#">Dropdown Level 1e</a></li>
-	          <li><a href="#">Dropdown Level 1f</a></li>
-	          <li class="divider"></li>
-	          <li><a href="#">See all &rarr;</a></li>
-	        </ul>
-	      </li>
-	      <li class="divider"></li>
-	      <li class="has-form">
-	        <form>
-	          <div class="row collapse">
-	            <div class="small-8 columns">
-	              <input type="text">
-	            </div>
-	            <div class="small-4 columns">
-	              <a href="#" class="alert button">Search</a>
-	            </div>
-	          </div>
-	        </form>
-	      </li>
-	      <li class="divider show-for-small"></li>
-	      <li class="has-form">
-	        <a class="button" href="#">Button!</a>
-	      </li>
 	    </ul>
-	  </section>-->
+	  -->
+
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+			<li><div class="fb-like" data-href="http://www.pieintheskymadisonva.com" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="false"></div></li>
+	      <li><a href="https://www.facebook.com/pieintheskymadison">Visit us on Facebook <img src="img/facebook.png"></a></li>
+	      <!--
+	      <li><a href="#"><img src="img/twitter.png"></a></li>
+	      <li class="divider hide-for-small"></li>
+	    	
+	      <li><a href="#"><img src="img/google_plus.png"></a></li>
+	      <li class="divider hide-for-small"></li>
+	      -->
+	    </ul>
+	  </section>
 	</nav> <!-- END NAV BAR -->
 	</div>
-
 	<header id="masthead" class="site-header" role="banner">
 
 		<ul data-orbit data-options="bullets:false; navigation_arrows:false; timer:false; slide_number:false;">
@@ -138,25 +108,8 @@
 
 		  </li>
 		 </ul>
-		  		<!--
-		  <li>
-		    <img src="img/pits1.png" />
-
-		  </li>
-		  <li>
-		    <img src="img/banner.jpg" />
-
-		  </li>
-
-	-->
 	</header>
-<!--
-	<div class="row">
-		<div class="large-12 columns">
-			<h1 id="restaurant-name">Pie in the Sky Pizzeria</h1>
-		</div>
-	</div>
--->
+
 	<section id="info">
 		<div class="row">
 			<div class="large-4 columns">
@@ -171,8 +124,8 @@
 			</div>
 			<div class="large-4 columns">
 				<h3>Hours</h3>
-				<p>Tuesday &amp Wednesday 11:00 - 8:00 <br />
-					Thursday - Saturday 11:00 - 9:00 </p>
+				<p>Tuesday - Thursday 11:00 - 8:00 <br />
+					Friday &amp Saturday 11:00 - 9:00 </p>
 			</div>
 		</div>
 	</section>
@@ -520,5 +473,18 @@
   <script>
     $(document).foundation();
   </script>
+  <script type="text/javascript">
+ 
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46739995-1']);
+  _gaq.push(['_trackPageview']);
+ 
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+</script>
 </body>
 </html>

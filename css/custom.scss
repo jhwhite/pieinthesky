@@ -1,6 +1,6 @@
 $bg-body-color: #F1E4AE;  		//brownish or khaki color
 $bg-footer-color: #000000; 		//black background for footer
-$price-color: #bf3109;  		//red font for menu prices
+$price-color: #bf3109;  			//red font for menu prices
 $footer-font-color: #ffffff;
 $menu-font-color: #786247;
 $menu-item-color: #5E8386;
@@ -118,4 +118,9 @@ a:link {
 
 li.active {
 	background-color: $header-background-color;
+}
+
+.fb-like {
+	padding-top: .75em;
+	background-color: black;
 }
