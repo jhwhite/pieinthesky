@@ -84,4 +84,5 @@ li.active {
   background-color: #f9001b; }
 
 .fb-like {
-  padding-top: .75em; }
+  top: -98px;
+  left: 10px; }
