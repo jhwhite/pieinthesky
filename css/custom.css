@@ -7,11 +7,13 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif; }
 
+/*
 #restaurant-name {
-  font-family: "Fondamento", cursive;
-  text-align: center;
-  padding-top: .5em; }
-
+	font-family: $cursive-font;
+	text-align: center;
+	padding-top: .5em;
+}
+*/
 #info {
   text-align: center;
   border-top: 1px solid;
@@ -86,3 +88,7 @@ li.active {
 .fb-like {
   top: -98px;
   left: 10px; }
+
+p.about-description {
+  font-family: "Fondamento", cursive;
+  font-size: 1.25em; }
