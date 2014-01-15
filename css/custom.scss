@@ -9,7 +9,7 @@ $cursive-font: 'Fondamento', cursive;
 $map-height: 25em;
 $map-button-color: #F1E4AE;
 $map-font-color: #786247;
-$header-background-color: #F9001B;
+$header-background-color: #Fc1503;
 
 body {
 	background-color: $bg-body-color;
@@ -132,4 +132,10 @@ p.about-description {
 	//color: $menu-font-color;
 	font-family: $cursive-font;
 	font-size: 1.5em;
+}
+
+#pits {
+	border: solid black 1px;
+	padding-left: 1em;
+	padding-right: 1em;
 }

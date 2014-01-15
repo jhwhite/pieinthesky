@@ -83,7 +83,7 @@ a:link {
   color: #786247; }
 
 li.active {
-  background-color: #f9001b; }
+  background-color: #fc1503; }
 
 .fb-like {
   top: -98px;
@@ -92,3 +92,8 @@ li.active {
 p.about-description {
   font-family: "Fondamento", cursive;
   font-size: 1.5em; }
+
+#pits {
+  border: solid black 1px;
+  padding-left: 1em;
+  padding-right: 1em; }
