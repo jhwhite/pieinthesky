@@ -130,7 +130,7 @@ li.active {
 
 p.about-description {
 	//color: $menu-font-color;
-	font-family: $cursive-font;
+	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;;
 	font-size: 1.5em;
 }
 
@@ -138,4 +138,9 @@ p.about-description {
 	border: solid black 1px;
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
 }
