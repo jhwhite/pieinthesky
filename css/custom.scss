@@ -1,6 +1,7 @@
 $bg-body-color: #F1E4AE;  		//brownish or khaki color
 $bg-footer-color: #000000; 		//black background for footer
 $price-color: #bf3109;  			//red font for menu prices
+$highlight-bg-color: #ebe6de;
 $footer-font-color: #ffffff;
 $menu-font-color: #786247;
 $menu-item-color: #5E8386;
@@ -12,7 +13,7 @@ $map-font-color: #786247;
 $header-background-color: #Fc1503;
 
 body {
-	background-color: $bg-body-color;
+	background-color: white;
 }
 
 .price {
@@ -98,6 +99,7 @@ span#direction-header {
 
 div#notes-reheat-pizza {
 	border: solid black 1px;
+	background-color: $highlight-bg-color;
 }
 
 h4#notes-header {
@@ -138,6 +140,7 @@ p.about-description {
 	border: solid black 1px;
 	padding-left: 1em;
 	padding-right: 1em;
+	background-color: $highlight-bg-color;
 }
 
 img {
