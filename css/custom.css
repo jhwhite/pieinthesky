@@ -95,7 +95,8 @@ p.about-description {
   font-size: 1.5em; }
 
 #pits {
-  border: solid black 1px;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
   padding-left: 1em;
   padding-right: 1em;
   background-color: #ebe6de; }
