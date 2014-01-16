@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: black; }
 
 .map {
-  height: 25em; }
+  height: 40em; }
 
 footer {
   color: white;
@@ -34,7 +34,8 @@ footer {
 
 .menu-category {
   color: #786247;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-bottom: solid #786247 1px; }
 
 #menu-header {
   border-bottom: 3px dotted; }
@@ -92,7 +93,7 @@ li.active {
 
 p.about-description {
   font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-  font-size: 1.5em; }
+  font-size: 1.25em; }
 
 #pits {
   border-top: solid black 1px;

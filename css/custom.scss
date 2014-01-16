@@ -7,7 +7,7 @@ $menu-font-color: #786247;
 $menu-item-color: #5E8386;
 $body-font: 'Open Sans', sans-serif;
 $cursive-font: 'Fondamento', cursive;
-$map-height: 25em;
+$map-height: 40em;
 $map-button-color: #F1E4AE;
 $map-font-color: #786247;
 $header-background-color: #Fc1503;
@@ -57,6 +57,7 @@ footer {
 .menu-category {
 	color: $menu-font-color;
 	text-transform:uppercase;
+	border-bottom: solid $menu-font-color 1px;
 }
 
 #menu-header {
@@ -133,7 +134,7 @@ li.active {
 p.about-description {
 	//color: $menu-font-color;
 	font-family: Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 
 #pits {
