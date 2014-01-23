@@ -15,6 +15,19 @@
 
 	<!-- Load Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+	<!-- javascript that will initiate jQuery and the LocalScroll plugin -->
+	<script type="text/javascript">// <![CDATA[
+    // When the document is loaded...
+    $(document).ready(function()
+    {
+        // Scroll the whole document
+        $('#directions').localScroll({
+           target:'body'
+        });
+    });
+ 
+// ]]></script>
 </head>
 
 <body>
@@ -28,8 +41,10 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- END FACEBOOK javascript SDK -->
+
+
 	<div class="contain-to-grid">
-		<nav class="top-bar ">
+		<nav class="top-bar">
 		  <ul class="title-area">
 		    <!-- Title Area -->
 		    <li class="name">
@@ -42,13 +57,15 @@
 
 		  <section class="top-bar-section">
 		    <!-- Left Nav Section -->
-		    <!--
+
 		    <ul class="left">
 		      <li class="divider"></li>
-		      <li class="active"><a href="menu.html">Menu</a></li>
+		      <li><a href="#directions">Directions</a></li>
 		      <li class="divider"></li>
-		      <li><a href="#">Main Item 2</a></li>
+		      <li><a href="#about">About</a></li>
 		      <li class="divider"></li>
+		      <li><a href="#menu">Menu</a></li>
+		      <!--
 		      <li class="has-dropdown"><a href="#">Main Item 3</a>
 
 		        <ul class="dropdown">
@@ -84,8 +101,9 @@
 		        </ul>
 		      </li>
 		      <li class="divider"></li>
+		    -->
 		    </ul>
-		  -->
+
 
 		    <!-- Right Nav Section -->
 		    <ul class="right">
@@ -139,7 +157,7 @@
 
 	<div class="row">
 		<div class="large-12 columns">
-			<h2><span id="menu-header">About</span></h2>
+			<h2 id="about"><span id="menu-header">About</span></h2>
 		</div>
 	</div>
 	<div class="row">
@@ -152,7 +170,7 @@
 
 	<div class="row">
 		<div class="large-12 columns">
-			<h2><span id="menu-header">Menu</span></h2>
+			<h2 id="menu"><span id="menu-header">Menu</span></h2>
 		</div>
 	</div>
 
@@ -610,8 +628,8 @@
   <script>
     $(document).foundation();
   </script>
+
   <script type="text/javascript">
- 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-46739995-1']);
   _gaq.push(['_trackPageview']);
