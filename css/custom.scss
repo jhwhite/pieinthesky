@@ -24,6 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $body-font;
 }
 
+.top-bar-section ul li > a {
+	font-family: $body-font;
+}
+
 /*
 #restaurant-name {
 	font-family: $cursive-font;
@@ -153,3 +157,9 @@ img {
 p.address {
 	line-height: .25em;
 }
+
+h1#title {
+	color: white;
+	padding-right: 1em;
+}
+
