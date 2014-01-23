@@ -105,3 +105,6 @@ p.about-description {
 img {
   margin-left: auto;
   margin-right: auto; }
+
+p.address {
+  line-height: .25em; }

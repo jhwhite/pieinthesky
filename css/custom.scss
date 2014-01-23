@@ -150,9 +150,6 @@ img {
 	margin-right: auto;
 }
 
-a[name] {
-  padding-top: 40px;
-  margin-top: -40px;
-  display: inline-block; /* required for webkit browsers */
-  vertical-align: top;
+p.address {
+	line-height: .25em;
 }
