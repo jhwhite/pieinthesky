@@ -99,9 +99,9 @@
           }
         } else if (topbar.parent().hasClass('fixed')) {
           if (settings.scrolltop) {
-            topbar.parent().removeClass('fixed');
+            //topbar.parent().removeClass('fixed');
             topbar.addClass('fixed');
-            $('body').removeClass('f-topbar-fixed');
+            //$('body').removeClass('f-topbar-fixed');
 
             window.scrollTo(0,0);
           } else {
