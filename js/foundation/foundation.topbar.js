@@ -102,7 +102,6 @@
             //topbar.parent().removeClass('fixed');
             topbar.addClass('fixed');
             //$('body').removeClass('f-topbar-fixed');
-
             window.scrollTo(0,0);
           } else {
               topbar.parent().removeClass('expanded');
