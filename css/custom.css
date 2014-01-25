@@ -26,8 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 .content {
   background-color: black; }
 
-.map {
+#map_canvas {
   height: 40em; }
+
+.map {
+  padding-right: 0rem;
+  padding-left: 0rem; }
 
 footer {
   color: white;
@@ -85,7 +89,8 @@ a:link {
 
 #map-button {
   background: #f1e4ae;
-  color: #786247; }
+  color: #786247;
+  margin-top: .5em; }
 
 li.active {
   background-color: #fc1503; }
