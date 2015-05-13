@@ -58,7 +58,7 @@ footer {
 	color: $footer-font-color;
 	padding-top: 2em;
 	padding-bottom: 2em;
-	background-color: $bg-footer-color;
+	//background-color: $bg-footer-color;
 }
 
 .menu-category {
@@ -167,3 +167,6 @@ h1#title {
 	padding-right: 1em;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
